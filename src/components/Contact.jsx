@@ -69,9 +69,9 @@ toast.success("your message has been sent")
                         type="text"
                         placeholder='Write your message '
                         />
-                         {errors.message && <span className='text-red-500'>This field is required</span>}
+                        {errors.message && <span className='text-red-500'>This field is required</span>}
             </div>
-            <button type='submit' className='bg-pink-500 text-black rounded-xl ml-32 px-3 py-2 hover:bg-pink-700 duration-300'>Send</button>
+            <button type='submit' className='bg-gray-700 text-white rounded-xl ml-32 px-3 py-2 hover:bg-gray-900 duration-300'>Submit</button>
         </form>
     </div>
     </div>

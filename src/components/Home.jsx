@@ -1,5 +1,6 @@
 import React from 'react'
-import pic from "../../public/arun.jpg"
+import homp from "../../public/homp.webp"
+
 
 import { FaLinkedin } from "react-icons/fa";
 import { SiTelegram } from "react-icons/si";
@@ -26,8 +27,8 @@ return (
 
 <div className='md:w-1/2 mt-12 md:mt-24 order-2 space-y-1 md:order-1'>
     <span className='text-xl'>Welcome In My Feed</span>
-    <div className='flex space-x-1 text-2xl md:text-4xl'>
-    <h1>Hello, I'm a </h1>
+    <div className='flex space-x-1 text-2xl md:text-3xl'>
+    <p className='text-green-500'>Hello, I'm a </p>
     <ReactTyped
         className='text-red-700 font-bold'
         strings={["Developer","Programmer","Coder" ]}
@@ -39,7 +40,7 @@ return (
 
     </div>
     <br />
-    <p className='text-sm md:text-md text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste deleniti dolore recusandae! Quisquam, vel dicta reiciendis unde eligendi voluptatum! Quidem id placeat vel similique ducimus natus saepe quisquam! Asperiores corporis, cupiditate blanditiis explicabo, officia quia magni labore non, expedita voluptates pariatur esse animi aut eaque!</p>
+    <p className='text-sm md:text-md text-justify'>A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. HTTP is used for communications between client and server. A web developer may specialize in client-side applications (Front-end web development), server-side applications (back-end development), or both (full-stack development).</p>
     <br />
     {/* social media content  */}
 <div className='flex flex-col items-center  text-center md:flex-row justify-between space-y-6 md:space-y-0'>
@@ -79,8 +80,8 @@ return (
 </div>
 </div>
 </div>
-    <div className='md:w-1/2 md:ml-48 md:mt-20 order-1'>
-    <img src={pic} className='rounded-full md:w-[350px] md:h-[350px]' alt="" /></div>
+    <div className='md:w-1/2  md:ml-48 md:mt-20 order-1'>
+    <img src={homp} className='  rounded-full h-80 md:w-[450px] md:h-[450px]' alt="" /></div>
 </div>
     </div>
     <hr />
