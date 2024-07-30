@@ -47,7 +47,7 @@ function PortFolio() {
 
   return (
     <>
-    <div name="Portfolio" className='max-w-screen-2xl container mx-auto px-7 md:px-20px mt-10'>
+    <div name="Portfolio" className='max-w-screen-2xl text-white container mx-auto px-7 md:px-20px mt-10'>
         <div>
             <h1 className='text-3xl font-bold mb-5'>PortFolio</h1>
             <span className='underline font-semibold'>Featured Project</span>
@@ -58,7 +58,7 @@ function PortFolio() {
 <div className='w-80 h-80 md:w-[300px] md:h-[300px] border-[2px] rounded-md bg-gray-400 p-1 mt-7 cursor-pointer hover:scale-105 duration-300' key={id}>
   <img className='w-[120px] h-[120px] p-1 rounded-md' src={logo} alt="" />
   <div>
-    <div className='font-bold text-xl px-2 mb-2'>{name}</div>
+    <div className='font-bold text-black text-xl px-2 mb-2'>{name}</div>
     <p className='px-2 text-gray-700'>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
   </div>
   <div className='px-6 py-4 space-x-3 justify-around'>

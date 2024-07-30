@@ -63,7 +63,7 @@ const cardItem = [
 
   return (
     <>
-    <div name="Experience" className='max-w-screen-2xl container mx-auto px-7 md:px-20px mt-10'>
+    <div name="Experience" className='max-w-screen-2xl  container mx-auto px-7 md:px-20px mt-10'>
         <div>
             <h1 className='text-3xl font-bold mb-5'>Experience</h1>
             <p className='font-semibold'>I've more than 1 years of experience in below technologies.</p>

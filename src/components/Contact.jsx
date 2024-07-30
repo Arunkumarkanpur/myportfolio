@@ -29,7 +29,7 @@ toast.success("your message has been sent")
   };
 
   return (
-    <div name="Contact" className='max-w-screen-2xl container mx-auto px-7 md:px-20px md:px-20 my-16'>
+    <div name="Contact" className='max-w-screen-2xl text-white container mx-auto px-7 md:px-20px md:px-20 my-16'>
 
     <h1 className='text-3xl font-bold mb-4'>Contact me</h1>
     <span>please fill out the form bellow to contact me</span>
@@ -38,7 +38,7 @@ toast.success("your message has been sent")
        //action="https://getform.io/f/ayvpkkgb"
        // method='POST'
         >
-            <h1 className='text-xl font-semibold mb-4'>send Your Message</h1>
+            <h1 className='text-xl font-semibold mb-4 text-black'>send Your Message</h1>
             <div className='flex flex-col mb-4'>
                 <label className="block text-gray-700">Full Name</label>
                 <input {...register("name", { required: true })} className='shadow appearence-none rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
