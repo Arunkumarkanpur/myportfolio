@@ -7,7 +7,7 @@ return (
     <div name="About" className='max-w-screen-2xl text-white container mx-auto px-7 md:px-20px my-16'>
         <h1 className='text-3xl font-bold mb-5'>About</h1>
         <p>I'm a MERN stack web developer or programmer who specializes in developing web applications using the MERN stack. <br />
-        The MERN stack is a collection of technologies and tools that are commonly used together to build full-stack web applications. <br />currently i am pursuing B.tech in computer science engineering with specialization in data science & artificial intelligence from SRM university, Lucknow</p>
+        The MERN stack is a collection of technologies and tools that are commonly used together to build full-stack web applications. <br />currently i am pursuing B.tech in computer science engineering with specialization in data science & artificial intelligence from SRM university,Lucknow</p>
         <br />
         <h1 className='text-blue-500 font-semibold text-xl'>Education</h1>
         <span>
