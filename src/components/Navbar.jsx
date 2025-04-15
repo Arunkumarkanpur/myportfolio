@@ -37,7 +37,7 @@ return (
     <div className='flex justify-between items-center h-16'>
         <div className='flex space-x-2'>
             <img src={pic} className='h-12 w-12 rounded-full' alt="" />
-            <h1 className='font-semibold text-xl cursor-pointer text-white'>Arun<span className='text-green-500 text-2xl'>k</span>umar
+            <h1 className=' text-xl cursor-pointer text-white'>Arun<span className='text-green-500 text-2xl'>k</span>umar
             <p className='text-sm'>Web Developer</p>
             </h1>
         </div>
@@ -47,7 +47,7 @@ return (
                 <ul className='hidden md:flex space-x-8'>
                 {
                     navItem.map(({id,text}) =>(
-                        <li className='hover:scale-105 duration-200 text-white cursor-pointer' key={id}>
+                        <li className='hover:scale-125 hover:text-green-500 duration-200 text-white cursor-pointer' key={id}>
                             <Link to={text}
                             smooth={true}
                             duration={500}
