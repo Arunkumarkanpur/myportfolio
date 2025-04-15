@@ -43,23 +43,23 @@ return (
     <p className='text-sm md:text-md text-justify text-white'>A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. HTTP is used for communications between client and server. A web developer may specialize in client-side applications (Front-end web development), server-side applications (back-end development), or both (full-stack development).</p>
     <br />
     {/* social media content  */}
-<div className='flex flex-col items-center  text-center md:flex-row justify-between space-y-6 md:space-y-0'>
-<div className='space-y-2'>
-    <h1 className='font-bold text-blue-700'>Available on</h1>
-<ul className='flex space-x-5'>
+<div className='flex flex-col items-center  text-center md:flex-row justify-between space-y-9 md:space-y-0'>
+<div className='space-y-2 mt-7'>
+    <h1 className='font-bold text-green-500 text-2xl'>Available on</h1>
+<ul className='flex space-x-5 p-3'>
 
     <li><a href="https://www.linkedin.com/in/arunkumar791/" target='blank'>
-        <FaLinkedin className='text-2xl text-white
+        <FaLinkedin className='text-4xl md:text-4xl text-white
         cursor-pointer hover:scale-150 duration-200'/> </a> </li>
     <li><a href="https://www.github.com/Arunkumarkanpur" target='blank'>
-        <FaGithubSquare className='text-2xl text-white cursor-pointer hover:scale-150 duration-200'/></a> </li>
+        <FaGithubSquare className='text-4xl md:text-4xl text-white cursor-pointer hover:scale-150 duration-200'/></a> </li>
     <li><a href="https://www.x.com/arunkumar796" target='blank'>
-        <FaSquareXTwitter className='text-2xl text-white cursor-pointer hover:scale-150 duration-200'/></a></li>
+        <FaSquareXTwitter className='text-4xl md:text-4xl text-white cursor-pointer hover:scale-150 duration-200'/></a></li>
     <li><a href="https://t.me/" target='blank'>
-        <SiTelegram className='text-2xl text-white cursor-pointer hover:scale-150 duration-200'/></a></li>
+        <SiTelegram className='text-4xl md:text-4xl text-white cursor-pointer hover:scale-150 duration-200'/></a></li>
     <li>
         <a href="https://www.instagram.com/arun_kumar1572" target='blank'>
-        <FaSquareInstagram  className='text-2xl text-white cursor-pointer hover:scale-150 duration-200'/></a>
+        <FaSquareInstagram  className='text-4xl md:text-4xl text-white cursor-pointer hover:scale-150 duration-200'/></a>
     </li>
 
 
@@ -68,13 +68,13 @@ return (
 </div>
 
 <div className='space-y-2'>
-<h1 className='font-bold text-blue-700'>Currently working on</h1>
-<div className='flex space-x-5'>
+<h1 className='font-bold mt-0 md:mt-7 text-green-500 text-2xl'>Currently working on</h1>
+<div className='flex space-x-8 p-3'>
 
-<SiMongodb className='text-xl md:text-3xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
-<SiExpress className='text-xl md:text-3xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
-<FaReact className='text-xl md:text-3xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
-<FaNodeJs className='text-xl md:text-3xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
+<SiMongodb className='text-4xl md:text-4xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
+<SiExpress className='text-4xl md:text-4xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
+<FaReact className='text-4xl md:text-4xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
+<FaNodeJs className='text-4xl md:text-4xl text-white hover:scale-150 duration-200 rounded-full border-[2xl]'/>
 
 </div>
 </div>
