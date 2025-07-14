@@ -12,9 +12,9 @@ return (
         <h1 className='text-blue-500 font-semibold text-xl'>Education</h1>
         <span>
             <ul>
-                <li>[10th from V.V.M inter college, fatehpur(u.p)]</li>
-                <li>[12th from SGOI inter college kanpur(u.p)]</li>
-                <li> [pursuing B.tech in computer science engineering from SRM University, Lucknow (u.p)]</li>
+                <li>[10th from V.V.M inter college, fatehpur (2019)]</li>
+                <li>[12th from SGOI inter college kanpur (2021)]</li>
+                <li> [pursuing B.tech in computer science engineering with Specialization in "Data Science & Artificial Intelligence" from SRM University, Lucknow.(🎯2026)]</li>
             </ul>
             [Degree/certification], [Institution],[year], [Degree/certification], [Institution],[year] [relevant course], [platform/Institution,[year]]
         </span>
@@ -28,7 +28,7 @@ return (
         <br /> <br />
         <h1 className='text-blue-500 font-semibold text-xl'>Professional Experience</h1>
         <span>
-        I've more than 1 years of experience in the field of development.
+        I've 2+ years of experience in the field of Web development.
 
         </span>
 

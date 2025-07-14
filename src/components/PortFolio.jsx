@@ -1,9 +1,5 @@
 import React from 'react'
-import react from "../../public/react.png";
-import mongo from "../../public/mongo.png";
-import express from "../../public/express.png";
-import nodejs from "../../public/nodejs.png";
-import java from "../../public/java.png"
+import pct from "../../public/pct.jpeg";
 
 
 
@@ -12,34 +8,32 @@ function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: mongo,
-      name:"Mongodb"
+      logo: pct,
+      name:"Ai-Chatbot",
+      about: "Developed a responsive chatbot using React.js and JavaScript with API integration for real-time interactions."
 
     },
     {
       id: 2,
-      logo: express,
-      name:"Expressjs"
+      logo: pct,
+      name:"Twitter-Clone",
+      about: "Implemented core features like user authentication, tweeting, liking, and following. Used RESTful APIs and responsive user experience."
 
     },
     {
       id: 3,
-      logo: nodejs,
-      name:"Nodejs"
+      logo: pct,
+      name:"Portfolio",
+      about: "Developed a responsive portfolio website using React, HTML, CSS, and JavaScript to showcase projects and technical skills."
 
     },
     {
       id: 4,
-      logo: react,
-      name:"Reactjs"
+      logo: pct,
+      name:"Calculator",
+      about:"Supports basic arithmetic operations with a clean UI and real-time input handling. Designed interactive button functionality and error handling."
 
-    },
-    {
-      id: 5,
-      logo: java,
-      name:"Java"
-
-    },
+    }
 
 
   ]
@@ -54,16 +48,23 @@ function PortFolio() {
 
 <div className='grid grid-cols-1 md:grid-cols-4 gap-2'>
 {
-  cardItem.map(({id,logo,name}) =>(
-<div className='w-80 h-80 md:w-[300px] md:h-[300px] border-[2px] rounded-md bg-gray-400 p-1 mt-7 cursor-pointer hover:scale-105 duration-300' key={id}>
-  <img className='w-[120px] h-[120px] p-1 rounded-md' src={logo} alt="" />
+  cardItem.map(({id,logo,name,about}) =>(
+<div className='w-80 h-100 md:w-[300px] md:h-[360px] border-[2px] rounded-md bg-gray-400 p-1 mt-7 cursor-pointer hover:scale-105 duration-300' key={id}>
+  <img className='w-[230px] h-[150px] p-2 ml-10 md:ml-7 rounded-md' src={logo} alt="" />
   <div>
-    <div className='font-bold text-black text-xl px-2 mb-2'>{name}</div>
-    <p className='px-2 text-gray-700'>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+    <div className='font-bold text-black text-xl px-2 mb-2 text-center'>{name}</div>
+
+    <div className=' text-black px-2 mb-2'>{about}</div>
+    
   </div>
-  <div className='px-6 py-4 space-x-3 justify-around'>
-    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4py-2 p-1 rounded'>Video</button>
-    <button className='bg-green-500 hover:bg-green-700 text-white font-bold px-4py-2 rounded p-1'>Source code</button>
+  <div className='flex p-2 md:p-0 px-6 space-x-0 justify-around'>
+    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4py-2 p-1 rounded'>
+      Demo
+    </button>
+    <button className='bg-green-500 hover:bg-green-600 text-white font-bold px-4py-2 rounded p-1'>
+      <a href='https://github.com/arunkumarkanpur/'target='blank'>Source code</a>
+    </button>
+
   
   </div>
 </div>
